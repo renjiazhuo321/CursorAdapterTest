@@ -18,7 +18,7 @@ public class TwoActivity extends Activity {
             @Override
             public void onClick(View view) {
                 ContentValues contentValues = new ContentValues();
-                contentValues.put("name", "测试2");
+                contentValues.put("name", "测试");
                 getContentResolver().update(TestContentProvider.CONTENT_URI, contentValues,null,null);
                 finish();
             }
