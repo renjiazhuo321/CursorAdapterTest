@@ -1,0 +1,2 @@
+# CursorAdapterTest
+CursorAdapter使用，数据库封装为Uri，通过ContentProvider提供数据给listview，实现数据实时更新
